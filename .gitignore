@@ -41,6 +41,3 @@ __MACOSX
 
 # RubyMine
 .idea
-
-# rbenv and rvm
-.ruby-version
