@@ -19,10 +19,10 @@ capybara-*.html
 rerun.txt
 pickle-email-*.html
 
-# TODO Comment out these rules if you are OK with secrets being
-  uploaded to the repo
 config/initializers/secret_token.rb
 config/secrets.yml
+.env
+
 
 ## Environment normalisation:
 /.bundle
@@ -41,6 +41,3 @@ __MACOSX
 
 # RubyMine
 .idea
-
-# rbenv and rvm
-.ruby-version

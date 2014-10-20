@@ -1,4 +1,7 @@
 source 'https://rubygems.org'
+
+ruby '2.1.1'
+
 gem 'rails', '~> 4.1.6'
 gem 'sass-rails', '~> 4.0.3'
 gem 'uglifier', '~> 2.5.3'
@@ -8,6 +11,7 @@ gem 'turbolinks', '~> 2.3.0'
 gem 'jbuilder', '~> 2.1.3'
 gem 'rails-html-sanitizer', '~> 1.0.1'
 gem 'bundler', '~> 1.7.4'
+gem 'foreman', '~> 0.75.0'
 
 group :doc do
   gem 'yard', '~> 0.8.7.4'
